@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Vazirmatn", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", "Vazirmatn", monospace;
+}
+
+html {
+  font-family: "Vazirmatn", system-ui, -apple-system, sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #070b14;
+  color: #f1f5f9;
+  font-feature-settings: "ss01";
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}

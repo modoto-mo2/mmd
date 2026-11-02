@@ -1,0 +1,6 @@
+{
+  "name": "همدلی و همیاری در حوادث — ارائه سه‌بعدی کنفرانس (درس ۵)",
+  "description": "وب‌سایت تعاملی و سه‌بعدی (Three.js Scrollytelling) ویژه ارائه کنفرانس درس پنجم مطالعات اجتماعی: همدلی و همیاری در حوادث، جمعیت هلال احمر، ندای امداد ۱۱۲ و فعالیت‌های کلاسی.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
