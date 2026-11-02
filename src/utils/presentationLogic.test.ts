@@ -14,7 +14,25 @@ import {
   lerp,
   calculateQuizResult,
 } from './presentationLogic';
-import { CHAPTERS, QUIZ_QUESTIONS } from '../data/conferenceData';
+import { CHAPTERS, QUIZ_QUESTIONS, SACRED_TEXTS } from '../data/conferenceData';
+
+test('all textbook photos in CHAPTERS and SACRED_TEXTS use self-contained data URLs for GitHub Pages', () => {
+  for (const ch of CHAPTERS) {
+    assert.ok(ch.photos.length > 0);
+    for (const p of ch.photos) {
+      assert.ok(
+        p.src.startsWith('data:image/jpeg;base64,') && p.src.length > 1000,
+        `Photo ${p.id} in ${ch.id} must be a valid embedded JPEG data URL`,
+      );
+    }
+  }
+  for (const st of SACRED_TEXTS) {
+    assert.ok(
+      st.imageSrc.startsWith('data:image/jpeg;base64,') && st.imageSrc.length > 1000,
+      `SacredText ${st.id} must be a valid embedded JPEG data URL`,
+    );
+  }
+});
 
 test('clamp constrains values within bounds', () => {
   assert.equal(clamp(-0.5, 0, 1), 0);

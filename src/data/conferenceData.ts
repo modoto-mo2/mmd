@@ -1,3 +1,14 @@
+import {
+  CENTRAL_INSURANCE_JPG,
+  DASTAN_RASTAN_JPG,
+  GLOSSARY_JPG,
+  MEDICAL_CENTER_JPG,
+  RED_CRESCENT_LOGO_JPG,
+  STUDENT_CARD_JPG,
+  THIRD_PARTY_POLICY_JPG,
+  WORKERS_INSURANCE_JPG,
+} from './lesson6Photos';
+
 export interface CameraWaypoint {
   position: [number, number, number];
   target: [number, number, number];
@@ -81,21 +92,21 @@ export const CHAPTERS: ChapterData[] = [
     photos: [
       {
         id: 'student-card',
-        src: '/assets/extracted/lesson6-student-card.jpg',
+        src: STUDENT_CARD_JPG,
         title: 'کارت پوشش بیمه درمان حوادث تحصیلی (صفحه ۲۶)',
         subtitle: 'ثبت‌نام بیمه دانش‌آموزی در ابتدای سال تحصیلی — شماره سری ۷۹۰۰۵۵ ویژه جبران هزینه‌های درمان حوادث',
         category: 'بیمه دانش‌آموزی · صفحه ۲۶',
       },
       {
         id: 'central-ins-1',
-        src: '/assets/extracted/lesson6-central-insurance.jpg',
+        src: CENTRAL_INSURANCE_JPG,
         title: 'ساختمان بیمه مرکزی جمهوری اسلامی ایران در تهران',
         subtitle: 'نهاد تدوین‌کننده قوانین و ناظر بر عملکرد کلیه مؤسسات بیمه کشور برای رضایت مشتریان',
         category: 'بیمه مرکزی · صفحه ۲۷',
       },
       {
         id: 'third-party-1',
-        src: '/assets/extracted/lesson6-third-party-policy.jpg',
+        src: THIRD_PARTY_POLICY_JPG,
         title: 'نمونه سند رسمی بیمه‌نامه شخص ثالث خودرو',
         subtitle: 'قرارداد رسمی بین بیمه‌گر و بیمه‌گذار با سقف تعهد جانی ۴,۴۰۰,۰۰۰,۰۰۰ ریال و مالی ۱۱۰,۰۰۰,۰۰۰ ریال',
         category: 'سند بیمه‌نامه · صفحه ۲۸',
@@ -121,28 +132,28 @@ export const CHAPTERS: ChapterData[] = [
     photos: [
       {
         id: 'central-building',
-        src: '/assets/extracted/lesson6-central-insurance.jpg',
+        src: CENTRAL_INSURANCE_JPG,
         title: 'ساختمان بیمه مرکزی در تهران (صفحه ۲۷)',
         subtitle: 'تدوین قوانین و مقررات لازم برای مؤسسات بیمه و هدایت و نظارت بر فعالیت آن‌ها',
         category: 'نهاد ناظر · صفحه ۲۷',
       },
       {
         id: 'medical-center-2',
-        src: '/assets/extracted/lesson6-medical-center.jpg',
+        src: MEDICAL_CENTER_JPG,
         title: 'مرکز فوریت‌های پزشکی و خدمات بیمه درمان',
         subtitle: 'پوشش هزینه‌های عمل جراحی، آزمایشگاه و خرید دارو با دفترچه بیمه بهداشت و درمان',
         category: 'بیمه درمان · صفحه ۲۸',
       },
       {
         id: 'workers-2',
-        src: '/assets/extracted/lesson6-workers-insurance.jpg',
+        src: WORKERS_INSURANCE_JPG,
         title: 'بیمه اجباری کارگران و کارمندان در برابر حوادث کار',
         subtitle: 'وظیفه قانونی کارفرمایان در بیمه کردن تمامی کارکنان کارگاه‌ها و کارخانجات',
         category: 'بیمه کارگران · صفحه ۲۸',
       },
       {
         id: 'student-card-2',
-        src: '/assets/extracted/lesson6-student-card.jpg',
+        src: STUDENT_CARD_JPG,
         title: 'پوشش بیمه حوادث تحصیلی دانش‌آموزان',
         subtitle: 'حمایت بیمه‌گر از دانش‌آموزان (بیمه‌شوندگان) در حوادث مدرسه و اردوهای آموزشی',
         category: 'بیمه تحصیلی · صفحه ۲۶',
@@ -168,28 +179,28 @@ export const CHAPTERS: ChapterData[] = [
     photos: [
       {
         id: 'policy-doc',
-        src: '/assets/extracted/lesson6-third-party-policy.jpg',
+        src: THIRD_PARTY_POLICY_JPG,
         title: 'بیمه‌نامه شخص ثالث سواری سمند (صفحه ۲۸)',
         subtitle: 'تعهد بدنی (جانی): ۴,۴۰۰,۰۰۰,۰۰۰ ریال | تعهد مالی: ۱۱۰,۰۰۰,۰۰۰ ریال | مدت: ۱ سال',
         category: 'بیمه شخص ثالث · صفحه ۲۸',
       },
       {
         id: 'workers-photo',
-        src: '/assets/extracted/lesson6-workers-insurance.jpg',
+        src: WORKERS_INSURANCE_JPG,
         title: 'بیمه حوادث ناشی از کار کارگران (صفحه ۲۸)',
         subtitle: 'کارگران باید برای حوادث ناشی از کار بیمه شوند تا هزینه‌های درمان یا از کارافتادگی دریافت کنند',
         category: 'حوادث کار · صفحه ۲۸',
       },
       {
         id: 'medical-photo',
-        src: '/assets/extracted/lesson6-medical-center.jpg',
+        src: MEDICAL_CENTER_JPG,
         title: 'مرکز فوریت‌های پزشکی (صفحه ۲۸)',
         subtitle: 'پرداخت بخشی از هزینه‌های عمل جراحی، آزمایشگاه و خرید دارو از طریق بیمه بهداشت و درمان',
         category: 'بهداشت و درمان · صفحه ۲۸',
       },
       {
         id: 'rc-logo-3',
-        src: '/assets/extracted/red_crescent_logo.jpg',
+        src: RED_CRESCENT_LOGO_JPG,
         title: 'ارتباط بیمه و نهادهای امدادی در حوادث',
         subtitle: 'مکمل بودن عملیات نجات هلال احمر و اورژانس با جبران خسارت‌های مالی و درمانی توسط بیمه',
         category: 'امداد و بیمه · صفحه ۳۰',
@@ -215,7 +226,7 @@ export const CHAPTERS: ChapterData[] = [
     photos: [
       {
         id: 'dastan-rastan',
-        src: '/assets/extracted/lesson6-dastan-rastan.jpg',
+        src: DASTAN_RASTAN_JPG,
         title: 'روایت کتاب «داستان راستان» شهید مرتضی مطهری (صفحه ۲۹)',
         subtitle: 'فرمان تاریخی امام علی (ع) برای پرداخت مستمری از بیت‌المال به پیرمرد نصرانی که در جوانی کار کرده بود',
         category: 'داستان راستان · صفحه ۲۹',
@@ -241,7 +252,7 @@ export const CHAPTERS: ChapterData[] = [
     photos: [
       {
         id: 'glossary-page',
-        src: '/assets/extracted/lesson6-glossary.jpg',
+        src: GLOSSARY_JPG,
         title: 'صفحه «واژه‌ها / بیشتر بدانیم» کتاب درسی (صفحه ۳۰)',
         subtitle: 'تعریف دقیق امدادگر، کمک‌های اولیه، صلیب سرخ جهانی، ملیت، حق بیمه، بیمه شخص ثالث، کارفرما، کارگر و مستمری',
         category: 'واژه‌نامه · صفحه ۳۰',
@@ -294,7 +305,7 @@ export const SACRED_TEXTS: SacredTextItem[] = [
     persianTranslation: 'کلیهٔ مؤسسات بیمه زیر نظر «بیمه مرکزی» فعالیت می‌کنند که قوانین را تدوین و بر عملکرد صحیح مؤسسات و رضایت مشتریان نظارت می‌کند.',
     concept: 'تدوین قوانین و نظارت عالی',
     takeaway: 'نام برخی مؤسسات بیمه‌گر کشور: بیمه ایران، آسیا، البرز، دانا، پارسیان، پاسارگاد، معلم و سامان.',
-    imageSrc: '/assets/extracted/lesson6-central-insurance.jpg',
+    imageSrc: CENTRAL_INSURANCE_JPG,
   },
   {
     id: 'mandatory-vs-optional',
@@ -302,7 +313,7 @@ export const SACRED_TEXTS: SacredTextItem[] = [
     persianTranslation: 'بعضی بیمه‌ها «اجباری» هستند و طبق قانون افراد باید آن‌ها را انجام دهند (مثل شخص ثالث و بیمه کارگران)؛ بعضی دیگر «اختیاری» و داوطلبانه‌اند.',
     concept: 'الزام قانونی در برابر انتخاب داوطلبانه',
     takeaway: 'نداشتن بیمه شخص ثالث خودرو و بیمه نکردن کارگران توسط کارفرما تخلف قانونی است و جریمه دارد.',
-    imageSrc: '/assets/extracted/lesson6-third-party-policy.jpg',
+    imageSrc: THIRD_PARTY_POLICY_JPG,
   },
   {
     id: 'service-types',
@@ -310,7 +321,7 @@ export const SACRED_TEXTS: SacredTextItem[] = [
     persianTranslation: 'بیمه بهداشت و درمان، بیکاری، عمر، از کارافتادگی، روستاییان، بدنه اتومبیل و موتورسیکلت، سرنشین خودرو، آتش‌سوزی و منازل مسکونی.',
     concept: 'پوشش جامع خطرات زندگی و دارایی',
     takeaway: 'هر نوع بیمه، زیان‌های مالی یا جانیِ بخش معینی از زندگی، سلامت، شغل یا اموال ما را جبران می‌کند.',
-    imageSrc: '/assets/extracted/lesson6-medical-center.jpg',
+    imageSrc: MEDICAL_CENTER_JPG,
   },
 ];
 

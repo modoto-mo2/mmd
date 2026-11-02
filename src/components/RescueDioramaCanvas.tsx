@@ -14,6 +14,15 @@ import {
 } from '../three/proceduralModels';
 import { CHAPTERS } from '../data/conferenceData';
 import {
+  CENTRAL_INSURANCE_JPG,
+  DASTAN_RASTAN_JPG,
+  GLOSSARY_JPG,
+  MEDICAL_CENTER_JPG,
+  STUDENT_CARD_JPG,
+  THIRD_PARTY_POLICY_JPG,
+  WORKERS_INSURANCE_JPG,
+} from '../data/lesson6Photos';
+import {
   advanceIntroProgress,
   computeCompactStackPositions,
   computeIntroTimelineState,
@@ -247,7 +256,7 @@ export default function RescueDioramaCanvas({
     act1Group.add(seismicWave.group);
 
     const plateEq = buildFloatingCurvedPhotoPlate(
-      '/assets/extracted/lesson6-student-card.jpg',
+      STUDENT_CARD_JPG,
       2.2,
       1.65,
       0xf43f5e,
@@ -259,7 +268,7 @@ export default function RescueDioramaCanvas({
     act1Group.add(plateEq);
 
     const plateFlood = buildFloatingCurvedPhotoPlate(
-      '/assets/extracted/lesson6-central-insurance.jpg',
+      CENTRAL_INSURANCE_JPG,
       1.65,
       2.35,
       0x38bdf8,
@@ -281,7 +290,7 @@ export default function RescueDioramaCanvas({
     act2Group.add(goldenVortex.group);
 
     const plateMaidah = buildFloatingCurvedPhotoPlate(
-      '/assets/extracted/lesson6-central-insurance.jpg',
+      CENTRAL_INSURANCE_JPG,
       1.75,
       2.35,
       0xf59e0b,
@@ -293,7 +302,7 @@ export default function RescueDioramaCanvas({
     act2Group.add(plateMaidah);
 
     const plateCovid = buildFloatingCurvedPhotoPlate(
-      '/assets/extracted/lesson6-medical-center.jpg',
+      MEDICAL_CENTER_JPG,
       2.15,
       1.6,
       0x38bdf8,
@@ -315,7 +324,7 @@ export default function RescueDioramaCanvas({
     act3Group.add(rcMonument.group);
 
     const plateHeli = buildFloatingCurvedPhotoPlate(
-      '/assets/extracted/lesson6-third-party-policy.jpg',
+      THIRD_PARTY_POLICY_JPG,
       1.95,
       2.15,
       0xe11d48,
@@ -327,7 +336,7 @@ export default function RescueDioramaCanvas({
     act3Group.add(plateHeli);
 
     const plateYouth = buildFloatingCurvedPhotoPlate(
-      '/assets/extracted/lesson6-workers-insurance.jpg',
+      WORKERS_INSURANCE_JPG,
       2.35,
       1.35,
       0xe11d48,
@@ -349,7 +358,7 @@ export default function RescueDioramaCanvas({
     act4Group.add(sonicTunnel.group);
 
     const plate112 = buildFloatingCurvedPhotoPlate(
-      '/assets/extracted/lesson6-dastan-rastan.jpg',
+      DASTAN_RASTAN_JPG,
       2.45,
       1.65,
       0x38bdf8,
@@ -370,7 +379,7 @@ export default function RescueDioramaCanvas({
     act5Group.add(baniAdamEarth.group);
 
     const plateGlossary = buildFloatingCurvedPhotoPlate(
-      '/assets/extracted/lesson6-glossary.jpg',
+      GLOSSARY_JPG,
       2.35,
       1.8,
       0x10b981,
